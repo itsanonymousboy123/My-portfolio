@@ -1,0 +1,894 @@
+<!--style inspired by: https://github.com/bedimcode-->
+<!--author: Yassine Rodani-->
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <!--==================== META ====================-->
+        <meta name="description"
+            content="Personal page of Gaurav Dwivedi, Studying Bachelor of Technology from National Institute of Technology Calicut">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Gaurav Dwivedi</title>
+        <!--==================== UNICONS ====================-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        <!--==================== SWIPER CSS ====================-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+        <!--==================== TYPELIGHTER JS ====================-->
+        <script src ="https://cdn.jsdelivr.net/npm/typelighterjs/typelighter.min.js"></script>
+        <!--==================== CSS ====================-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <!--==================== FAVICON ====================-->
+        <link rel="shortcut icon" href="assets/img/general/favicon.png" type="image/png">
+        <!--==================== GOOGLE ANALYTICS ====================-->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-1PWGHS8967"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-1PWGHS8967');
+        </script>
+    </head>
+
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">Gaurav</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list grid">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class="uil uil-estate nav__icon"></i> Home
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">
+                                <i class="uil uil-user nav__icon"></i> About
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class="uil uil-atom nav__icon"></i> Skills
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#qualification" class="nav__link">
+                                <i class="uil uil-book-alt nav__icon"></i> Qualification
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#projects" class="nav__link">
+                                <i class="uil uil-desktop-alt nav__icon"></i> Projects
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">
+                                <i class="uil uil-message nav__icon"></i> Contact
+                            </a>
+                        </li>
+                    </ul>
+                    <i class="uil uil-times nav__close" id="nav-close"></i>
+                </div>
+
+            </nav>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home section" id="home">
+                <div class="home__container container grid">
+                    <div class="home__content grid">
+                        <div class="home__social">
+                            <a href="https://www.linkedin.com/in/gaurav-dwivedi-46bb38223/" target="_blank" class="home__social-icon">
+                                <i class="uil uil-linkedin-alt"></i>
+                            </a>
+
+                            <a href="https://github.com/itsanonymousboy123" target="_blank" class="home__social-icon">
+                                <i class="uil uil-github-alt"></i>
+                            </a>
+                        </div>
+
+                        <div class="home__img">
+                            <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <mask id="mask0" mask-type="alpha">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                                130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                                97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                                0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                                </mask>
+                                <g mask="url(#mask0)">
+                                    <path
+                                        d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                                165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                                129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                                -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                                    <image class="home__blob-img" x="-5" y="5" href="assets/img/general/p3.jpeg" />
+                                </g>
+                            </svg>
+                        </div>
+
+                        <div class="home__data">
+                            <h1 class="home__title">
+                                Hi, <span class="home__colored-text">Gaurav</span> here.<span class="home__colored-text"></span>
+                            </h1>
+                            <h2 class="home__subtitle">
+                                <span class="typeWriter" data-text='["A Frontend Developer","A Backend Developer","A full-stack Developer"]' data-speed=2></span>
+                            </h2> 
+                            <p class="home__description">
+                                I also do <span class="home__colored-text">Competitive programming </span> sometimes.
+                            </p>
+                            <a href="#contact" class="home__button button button--flex">
+                                Say hi <i class="uil uil-envelope-alt button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="home__scroll">
+                        <a href="#about" class="home__scroll-button button--flex">
+                            <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                            <span class="home__scroll-name">Scroll down</span>
+                            <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section" id="about">
+                <h2 class="section__title">About me</h2>
+                <span class="section__subtitle">Quick introduction</span>
+
+                <div class="about__container container grid">
+                    <img src="assets/img/general/illustration.png" alt="About section background image" class="about__img">
+
+                    <div class="about__data">
+                        <p class="about__description" style="text-align: justify;">
+                            I’m currently pursuing my B.Tech from NIT Calicut, focusing on full-stack web development with the MERN stack to build dynamic web applications.
+                            <br>
+                            I have solved over 500 problems on GFG, earned a top 10% rank on Coding Ninjas, and hold Specialist and Achiever badges in arrays, Dynamic Programming, Linked Lists, Matrices, and Sorting.
+                            <br>
+                            When I'm not coding, you can find me playing hockey, where I proudly represented NITC and secured a silver medal at the 2023 inter-NIT competitions.
+                        </p>
+                        <div class="about__info">
+                            <div>
+                                <span class="about__info-title">1+</span>
+                                <span class="about__info-name">Year<br> experience</span>
+                            </div>
+                            <div>
+                                <span class="about__info-title">5</span>
+                                <span class="about__info-name">Full Stack Projects<br>Completed</span>
+                            </div>
+                            <div>
+                                <span class="about__info-title">1</span>
+                                <span class="about__info-name">SQL<br> Badge</span>
+                            </div>
+                            <div>
+                                <span class="about__info-title">19</span>
+                                <span class="about__info-name">Rank in college<br> on GFG</span>
+                            </div>
+                        </div>
+
+                        <div class="about__buttons">
+                            <a download="" class="button button--flex" href="/assets/pdf/resume.pdf">
+                                My resume<i class="uil uil-download-alt button__icon"></i>
+                            </a>
+                            
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== SKILLS ====================-->
+            <section class="skills section" id="skills">
+                <h2 class="section__title">Skills</h2>
+                <span class="section__subtitle">My technical level</span>
+
+                <div class="skills__container container grid" style="gap: 3rem;">
+                    <div>
+                        <!--==================== SKILL 1 ====================-->
+                        <div class="skills__content skills__open">
+                            <div class="skills__header">
+                                <i class="uil uil-brackets-curly skills__icon"></i>
+                                <div>
+                                    <h1 class="skills__title">Frontend
+                                        Web Development</h1>
+                                    <span class="skills__subtitle">Client Side..</span>
+                                </div>
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+
+                            <div class="skills__list grid">
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">HTML5 / CSS3</h3>
+                                        <span class="skills__number">80%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__HTMLCSS"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">JavaScript (ES6+)
+                                        </h3>
+                                        <span class="skills__number">70%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__java"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">React.js (Hooks, Context API, etc.)
+                                        </h3>
+                                        <span class="skills__number">80%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__react"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Redux / Redux Toolkit (for state management)
+                                        </h3>
+                                        <span class="skills__number">60%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__redux"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Responsive Design (Flexbox, Grid, Media Queries)
+                                        </h3>
+                                        <span class="skills__number">80%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__r"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">UI Libraries (Material UI, Bootstrap, Tailwind CSS)
+                                        </h3>
+                                        <span class="skills__number">60%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__ui"></span>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <!--==================== SKILL 2 ====================-->
+                        <div class="skills__content skills__close">
+                            <div class="skills__header">
+                                <i class="uil uil-server-network skills__icon"></i>
+
+                                <div>
+                                    <h1 class="skills__title">Backend
+                                        Web Development</h1>
+                                    <span class="skills__subtitle">Server Side..</span>
+                                </div>
+
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+
+                            <div class="skills__list grid">
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Node.js
+                                        </h3>
+                                        <span class="skills__number">85%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__node"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Express.js (Routing, Middleware)</h3>
+                                        <span class="skills__number">80%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__express"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Firebase (Authentication)
+                                        </h3>
+                                        <span class="skills__number">70%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__firebase"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Axios (HTTP client)
+                                        </h3>
+                                        <span class="skills__number">70%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__Axios"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Postman (API testing)
+                                        </h3>
+                                        <span class="skills__number">60%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__Postman"></span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <!--==================== SKILL 3 ====================-->
+                        <div class="skills__content skills__close">
+                            <div class="skills__header">
+                                <i class="uil uil-atom skills__icon"></i>
+
+                                <div>
+                                    <h1 class="skills__title">Version Control & CD</h1>
+                                    <span class="skills__subtitle">Tracking code and shipping changes</span>
+                                </div>
+
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+
+                            <div class="skills__list grid">
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Git (GitHub)</h3>
+                                        <span class="skills__number">85%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__git"></span>
+                                    </div>
+                                </div>
+
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Continuous Deployment (e.g.Render)</h3>
+                                        <span class="skills__number">70%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__cd"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--==================== SKILL 4 ====================-->
+                        <div class="skills__content skills__close">
+                            <div class="skills__header">
+                                <i class="uil uil-cloud-lock skills__icon"></i>
+
+                                <div>
+                                    <h1 class="skills__title">Competitive Programming & DSA</h1>
+                                    <span class="skills__subtitle">Problem Solving...</span>
+                                </div>
+
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+
+                            <div class="skills__list grid">
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">C++</h3>
+                                        <span class="skills__number">90%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__c"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Python</h3>
+                                        <span class="skills__number">70%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__python"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--==================== SKILL 5 ====================-->
+                        <div class="skills__content skills__close">
+                            <div class="skills__header">
+                                <i class="uil uil-analysis skills__icon"></i>
+
+                                <div>
+                                    <h1 class="skills__title">Databases</h1>
+                                    <span class="skills__subtitle">Storing data and making it pretty</span>
+                                </div>
+
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+
+                            <div class="skills__list grid">
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">MySQL</h3>
+                                        <span class="skills__number">70%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__mysql"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">MongoDB</h3>
+                                        <span class="skills__number">80%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__mgdb"></span>
+                                    </div>
+                                </div>
+
+                                
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== QUALIFICATION ====================-->
+            <section class="qualification section" id="qualification">
+                <h2 class="section__title">Qualification</h2>
+                <span class="section__subtitle">My personal journey</span>
+
+                <div class="qualification__container container">
+                    <div class="qualification__tabs">
+                        <div class="qualification__button button--flex qualification__active" data-target='#education'>
+                            <i class="uil uil-graduation-cap qualification__icon"></i>
+                            Education
+                        </div>
+
+                        <div class="qualification__button button--flex" data-target="#work">
+                            <i class="uil uil-briefcase-alt qualification__icon"></i>
+                            Work
+                        </div>
+                    </div>
+
+                    <div class="qualification__sections">
+                        <!--==================== QUALIFICATION CONTENT 1 ====================-->
+                        <div class="qualification__content qualification__active" data-content id="education">
+                            <!--==================== QUALIFICATION 1 ====================-->
+                            <div class="qualification__data">
+
+                                <div>
+                                    <h3 class="qualification__title">
+                                        <a>Senior Secondary</a>
+                                    </h3>
+                                    <span class="qualification__subtitle">Saraswati Shishu Mandir Sr. Secondary school</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2017 - 2019
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <div class="qualification__line"></div>
+                                </div>
+                            </div>
+
+                            <!--==================== QUALIFICATION 2 ====================-->
+                            <div class="qualification__data">
+                                <div></div>
+
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <div class="qualification__line"></div>
+                                </div>
+
+                                <div>
+                                    <h3 class="qualification__title">
+                                        <a>Higher Senior secondary</a>
+                                    </h3>
+                                    <span class="qualification__subtitle">Madhav Public School</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2019 - 2021
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--==================== QUALIFICATION 3 ====================-->
+                            <div class="qualification__data">
+
+                                <div>
+                                    <h3 class="qualification__title">
+                                        <a>
+                                            Bachelor of Technology (B.Tech)
+                                        </a>
+                                    </h3>
+                                    <span class="qualification__subtitle">National Institute Of Technology Calicut</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2021 - 2025
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <!--==================== QUALIFICATION CONTENT 2 ====================-->
+                        <div class="qualification__content" data-content id="work">
+
+                            <!--==================== QUALIFICATION 1 ====================-->
+                            <div class="qualification__data">
+
+                                <div>
+                                    <h3 class="qualification__title">
+                                        <a>Player
+                                        </a>
+                                    </h3>
+                                    <span class="qualification__subtitle">NITC Hockey Team
+                                    </span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        06/2022 - 02/2024
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <div class="qualification__line"></div>
+                                </div>
+
+                            </div>
+
+                            <!--==================== QUALIFICATION 2 ====================-->
+
+                            <div class="qualification__data">
+                                <div></div>
+
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <div class="qualification__line"></div>
+                                </div>
+
+                                <div>
+                                    <h3 class="qualification__title">
+                                        <a>Human Resources Intern</a>
+                                    </h3>
+                                    <span class="qualification__subtitle">Marpu Foundation
+                                    </span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        05/2023 - 05/2023
+                                    </div>
+                                    
+                                </div>
+
+                            </div>
+
+                            <!--==================== QUALIFICATION 3 ====================-->
+                            <div class="qualification__data">
+
+                                <div>
+                                    <h3 class="qualification__title">
+                                        <a>Content Writer
+                                        </a>
+                                    </h3>
+                                    <span class="qualification__subtitle">Jobbox
+                                    </span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        05/2023 - 06/2023
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <div class="qualification__line"></div>
+                                </div>
+
+                            </div>
+
+                            <!--==================== QUALIFICATION 4 ====================-->
+
+                            <div class="qualification__data">
+                                <div></div>
+
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    
+                                </div>
+
+                                <div>
+                                    <h3 class="qualification__title">
+                                        <a>Senior Executive Tech Team</a>
+                                    </h3>
+                                    <span class="qualification__subtitle">TATHVA 2023
+                                    </span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        12/2023 - 02/2024
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== PROJECTS ====================-->
+            <section class="projects section" id="projects">
+                <h2 class="section__title">Projects</h2>
+                <span class="section__subtitle">Recent works</span>
+              
+                <div class="projects__container container">
+                  <!-- Project 1 -->
+                  <div class="projects__content large-image">
+                    <img src="assets/img/projects/estate.png" alt="PaperWhiz project's image">
+                    <div class="projects__data">
+                      <h3 class="projects__title">Real Estate Website</h3>
+                      <p class="projects__description">
+                        The project involves developing a full-stack website where users can create property listings. It features search functionality, image uploads, OAuth integration, and other essential property management tools. MongoDB is used for data storage.
+                      </p>
+                      <a href="https://github.com/itsanonymousboy123/Indian-Estate" target="_blank">GitHub repository</a>
+                      <a href="https://indian-estate.onrender.com/" target="_blank">Link</a>
+                    </div>
+                  </div>
+              
+                  <!-- Project 2 -->
+                  <div class="projects__content large-image">
+                    <img src="assets/img/projects/blog.png" alt="Movie sentiment analysis project's image" >
+                    <div class="projects__data">
+                      <h3 class="projects__title" style="margin-top: 3.2rem;">Blog app</h3>
+                      <p class="projects__description">
+                        This is a full-stack application where users can create, edit, and delete blogs. It allows users to upload images, leave comments on posts, and check recent users. The backend is powered by MongoDB, ensuring smooth data storage for users, blogs, and comments.
+                      </p>
+                      <a href="https://github.com/itsanonymousboy123/Blog-app" target="_blank">GitHub repository</a>
+                      <a href="https://blog-app-1iep.onrender.com/" target="_blank">Link</a>
+                    </div>
+                  </div>
+              
+                  <!-- Project 3 -->
+                  <div class="projects__content medium-image">
+                    <img src="assets/img/projects/foody_zone.png" alt="Foody Zone project image">
+                    <div class="projects__data">
+                      <h3 class="projects__title">Foody Zone</h3>
+                      <p class="projects__description">
+                        The project involves developing a full-stack application where the backend stores food items that are fetched and displayed by the frontend. 
+                      </p>
+                      <a href="https://github.com/itsanonymousboy123/Foody-Zone" target="_blank">GitHub repository</a>
+                      
+                    </div>
+                  </div>
+              
+                  <!-- Project 4 -->
+                  <div class="projects__content medium-image">
+                    <img src="assets/img/projects/reservation.png" alt="Reservation system project image">
+                    <div class="projects__data">
+                      <h3 class="projects__title">Reservation System</h3>
+                      <p class="projects__description">
+                        The project focuses on frontend development for a restaurant reservation system.                      
+                      </p>
+                      <a href="https://github.com/itsanonymousboy123/Resturant-Reservation-Frontend
+                      " target="_blank" style="margin-top: 2.3rem;">GitHub repository</a>
+                      
+                    </div>
+                  </div>
+              
+                  <!-- Project 5 -->
+                  <div class="projects__content">
+                    <img src="assets/img/projects/Recipe App.png" alt="Recipe App project image">
+                    <div class="projects__data">
+                      <h3 class="projects__title" style="margin-top: 1rem;">Recipe App</h3>
+                      <p class="projects__description">
+                        The project involves developing a full-stack recipe application with login and logout functionalities. Users can add recipes, upload images, and view recipes uploaded by other users. MongoDB is used for storing user and recipe data.
+                      </p>
+                      <a href="https://github.com/itsanonymousboy123/Recipe-App
+                      " target="_blank">GitHub repository</a>
+                      
+                    </div>
+                  </div>
+              
+                  <!-- Project 6 -->
+                  <div class="projects__content">
+                    <img src="assets/img/projects/Dice Game.png" alt="Dice Game project image">
+                    <div class="projects__data">
+                      <h3 class="projects__title">Dice Game</h3>
+                      <p class="projects__description">
+                        The project involves developing a simple game where users roll a dice, and the system simulates random dice rolls, making it an entertaining frontend application.
+                    </p>
+                      <a href="https://github.com/itsanonymousboy123/Dice-Game" target="_blank" style="margin-top: 1.5rem;">GitHub repository</a>
+                      
+                    </div>
+                  </div>
+              
+                  <!-- Project 7 -->
+                  <div class="projects__content">
+                    <img src="assets/img/projects/Authentication.png" alt="Authentication project image">
+                    <div class="projects__data">
+                      <h3 class="projects__title" style="margin-top: 1rem;">Authentication System</h3>
+                      <p class="projects__description">
+                        The project involves creating an authentication page integrated with a backend to fetch users. MongoDB handles user data.                      </p>
+                      <a href="https://github.com/itsanonymousboy123/Authentication-
+                      " target="_blank">GitHub repository</a>
+                     
+                    </div>
+                  </div>
+              
+                  <!-- Project 8 -->
+                  <div class="projects__content">
+                    <img src="assets/img/projects/Contact Us.png" alt="Contact Us project image">
+                    <div class="projects__data">
+                      <h3 class="projects__title">Contact Us Form</h3>
+                      <p class="projects__description">
+                        The project involves developing a simple frontend contact form page for user submissions.
+                      </p>
+                      <a href="https://github.com/itsanonymousboy123/Contact-Us" target="_blank" style="margin-top: 1.5rem;">GitHub repository</a>
+                      
+                    </div>
+                  </div>
+                </div>
+              </section>
+              
+              
+              
+
+            <!--==================== CONTACT ME ====================-->
+            <section class="contact section" id="contact">
+                <h2 class="section__title">Contact me</h2>
+                <span class="section__subtitle">Get in touch</span>
+
+                <div class="contact__container container grid">
+                    <div>
+                        <div class="contact__information">
+                            <i class="uil uil-phone-alt contact__icon"></i>
+                            <div>
+                                <h3 class="contact__title">Phone</h3>
+                                <span class="contact__subtitle">+91 9696878891</span>
+                            </div>
+                        </div>
+                        <div class="contact__information">
+                            <i class="uil uil-envelope contact__icon"></i>
+                            <div>
+                                <h3 class="contact__title">E-mail</h3>
+                                <span class="contact__subtitle">gaurav.dwivedi.official.678@gmail.com
+                                </span>
+                            </div>
+                        </div>
+                        <div class="contact__information">
+                            <i class="uil uil-map-marker contact__icon"></i>
+                            <div>
+                                <h3 class="contact__title">Location</h3>
+                                <span class="contact__subtitle">Sant Kabir Nagar, Uttar Pradesh,India</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form class="contact__form grid" id="my-form" onsubmit="openOutlook(event)">
+                        <div class="contact__inputs grid">
+                          <div class="contact__content">
+                            <label for="name" class="contact__label">Name</label>
+                            <input type="text" id="name" name="name" class="contact__input" required>
+                          </div>
+                          <div class="contact__content">
+                            <label for="email" class="contact__label">E-mail</label>
+                            <input type="email" id="email" name="email" class="contact__input" required>
+                          </div>
+                          <div class="contact__content">
+                            <label for="message" class="contact__label">Message</label>
+                            <textarea id="message" name="message" cols="0" rows="6" class="contact__input" required></textarea>
+                          </div>
+                          <div class="contact__submit">
+                            <div>
+                              <input type="submit" value="Send message" class="button button--flex" id="contact__button">
+                            </div>
+                            <div id="contact__status"></div>
+                          </div>
+                        </div>
+                      </form>
+                      
+                      <script>
+                        function openOutlook(event) {
+                          event.preventDefault(); // Prevent form submission
+                          
+                          // Get values from the form
+                          const name = document.getElementById('name').value;
+                          const email = document.getElementById('email').value;
+                          const message = document.getElementById('message').value;
+                          
+                          // Construct the mailto link
+                          const mailtoLink = `mailto:gaurav.dwivedi.official.678@gmail.com?subject=Message from ${name} (${email})&body=${encodeURIComponent(message)}`;
+                          
+                          // Open the default mail client (like Outlook)
+                          window.location.href = mailtoLink;
+                        }
+                      </script>
+                      
+                      
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer">
+            <div class="footer__bg">
+                <div class="footer__container container grid">
+                    <div>
+                        <h1 class="footer__title">Gaurav</h1>
+                        <span class="typeWriter footer__subtitle" data-text='["A Frontend Developer","A Backend Developer","A full-stack Developer"]' data-speed=2></span>
+                    </div>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#about" class="footer__link">About</a>
+                        </li>
+                        <li>
+                            <a href="#projects" class="footer__link">Projects</a>
+                        </li>
+                        <li>
+                            <a href="#qualification" class="footer__link">Qualification</a>
+                        </li>
+
+                    </ul>
+
+                    <div class="footer__socials">
+                        <a href="https://www.linkedin.com/in/gaurav-dwivedi-46bb38223/" target="_blank" class="footer__social">
+                            <i class="uil uil-linkedin-alt"></i>
+                        </a>
+                        <a href="https://github.com/itsanonymousboy123" target="_blank" class="footer__social">
+                            <i class="uil uil-github-alt"></i>
+                        </a>
+                        
+                       
+                    </div>
+                </div>
+
+                <p class="footer__copy">&copy; Copyright 2024 Gaurav </p>
+            </div>
+        </footer>
+
+        <!--==================== SCROLL TOP ====================-->
+        <a href="#home" class="scrollup" id="scroll-up">
+            <i class="uil uil-arrow-up scrollup__icon"></i>
+        </a>
+
+        <!--==================== SWIPER JS ====================-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+        <!--==================== SCROLL REVEAL JS ====================-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+        <!--==================== MAIN JS ====================-->
+        <script src="assets/js/main.js"></script>
+        <!--==================== FONTAWESOME ====================-->
+        <script src="https://kit.fontawesome.com/b58a420f20.js" crossorigin="anonymous"></script>
+    </body>
+
+</html>
