@@ -394,8 +394,8 @@ img {
 }
 
 .about__description {
-  text-align: center;
-  width: 120%;
+  text-align: justify;
+  width: 100%;
   margin-bottom: var(--mb-2-5);
 }
 
@@ -403,6 +403,13 @@ img {
   display: flex;
   justify-content: space-between;
   margin-bottom: var(--mb-2-5);
+  flex-wrap: wrap;
+}
+
+.about__info div {
+  flex: 1;
+  min-width: 150px;
+  margin-bottom: 10px;
 }
 
 .about__info-title {
@@ -425,6 +432,57 @@ img {
   display: flex;
   justify-content: center;
 }
+
+@media (max-width: 768px) {
+  .about__container {
+    grid-template-columns: 1fr;
+  }
+
+  .about__img {
+    width: 150px;
+    margin-bottom: 20px;
+  }
+
+  .about__description {
+    text-align: justify;
+    width: 100%;
+    font-size: var(--normal-font-size);
+  }
+
+  .about__info {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about__info div {
+    margin-bottom: 20px;
+  }
+
+  .about__buttons a {
+    padding: 10px 20px;
+    font-size: var(--small-font-size);
+  }
+}
+
+@media (max-width: 480px) {
+  .about__img {
+    width: 120px;
+  }
+
+  .about__info-title {
+    font-size: var(--h3-font-size);
+  }
+
+  .about__info-name {
+    font-size: var(--smaller-font-size);
+  }
+
+  .about__buttons a {
+    padding: 8px 16px;
+    font-size: var(--small-font-size);
+  }
+}
+
 
 /*==================== SKILLS ====================*/
 .skills__container {
